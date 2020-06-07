@@ -1,6 +1,6 @@
 package com.codecool.books.model;
 
-import java.sql.Date;
+import java.sql.*;
 
 public class Author {
     // null means not saved

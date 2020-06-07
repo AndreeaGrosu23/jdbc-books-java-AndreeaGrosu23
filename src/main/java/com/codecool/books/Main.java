@@ -67,10 +67,9 @@ public class Main {
     private DataSource connect() throws SQLException {
         PGSimpleDataSource dataSource = new PGSimpleDataSource();
 
-        // TODO: update database parameters
         dataSource.setDatabaseName("books");
-        dataSource.setUser("pawel");
-        dataSource.setPassword("pawel");
+        dataSource.setUser("andreeagrosu");
+        dataSource.setPassword("Kirsebaerfarget123>>");
 
         ui.println("Trying to connect...");
         dataSource.getConnection().close();
